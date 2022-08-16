@@ -1,0 +1,144 @@
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+#myDiv2 {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+}
+#innerDiv {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
+#outerDiv {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+}
+#myImage {
+    width: 300px;
+}
+#myDiv1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    position: relative;
+}
+#myDiv3 {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    position: relative;
+}
+#myCanvas {
+    border: 1px solid;
+}
+#bigger {
+    background-color: lightcoral;
+    width: 1000px;
+    height: 1000px;
+}
+.timerBtn {
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+#timeDisplay {
+    font-size: 75px;
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+#timeContainer {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+
+}
+#gameDiv {
+    font-family:'Brush Script MT', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.choiceBtn {
+    line-height: 30px;
+    width: 150px;
+}
+#playerText {
+    color: blue;
+}
+#computerText {
+    color: red;
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#snakeContainer {
+    text-align: center;
+}
+#snakeBoard {
+    border: 3px solid;
+
+}
+#scoreText {
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+}
+#resetSnake {
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#pongContainer {
+    text-align: center;
+}
+#gameBoard {
+    border: 3px solid;
+}
+#scoreBoard {
+    font-family: "consolas", monospace;
+    font-size: 100px;
+}
+#resetPong {
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
